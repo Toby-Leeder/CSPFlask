@@ -10,7 +10,13 @@
     <div class="px-5 py-5 mx-auto">
         <h1 style="color:red;"><strong>Toby Leeder</strong></h1>
         <p style="color:red;">That's my name up there</p>
-        <img src="/static/assets/theTeam.png" alt="Awww, my image map isn't working" style="width:900px;height:300px;">
+        <img src="/static/assets/theTeam.png" alt="Awww, my image map isn't working" style="width:1000px;height:322px;" usemap="#teammap">
+        <map name ="teammap">
+            <area shape="rect" coords="27, 17, 229, 303" href="{{ url_for('projects.nathan') }}">
+            <area shape="rect" coords="262, 17, 474, 303" href="{{ url_for('projects.gene') }}">
+            <area shape="rect" coords="507, 17, 719, 303" href="{{ url_for('projects.caleb') }}">
+            <area shape="rect" coords="752, 17, 964, 303" href="{{ url_for('projects.toby') }}">
+        </map>
     </div>
 {% endblock %}
 
