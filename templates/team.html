@@ -2,14 +2,15 @@
 {% extends "layouts/base.html" %}
 
 <!- This variable sets name of browser tab  -->
-{% set project = "Stubby" %}
+{% set project = "Team" %}
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Toby Leeder</strong></h1>
-        <p class="text-secondary">That's my name up there</p>
+        <h1 style="color:red;"><strong>Toby Leeder</strong></h1>
+        <p style="color:red;">That's my name up there</p>
+        <img src="/static/assets/theTeam.png" alt="Awww, my image map isn't working" style="width:900px;height:300px;">
     </div>
 {% endblock %}
 

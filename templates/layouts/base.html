@@ -32,7 +32,7 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
     {% endblock %}
     </style>
 
-    <title>{{ basename }} | {{ project }} </title>
+    <title> Toby's {{ project }} </title>
 
 </head>
 
@@ -59,30 +59,14 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             minWidth: 200.00,
             scale: 1.00,
             scaleMobile: 1.00,
-            quantity: 5,
+            quantity: 4,
             backgroundColor: 0x4692ff,
             color1: 0xff21f0,
             color2: 0xff0f,
-            alignment: 100.00
+            wingSpan: 500,
+            alignment: 10.00
         })
     </script>
-    <!-- <script src="{{ url_for('static', filename='js/three.r119.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
-    <script>
-        VANTA.NET({
-            el: "body",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0xc52525,
-            backgroundColor: 0x0,
-            points: 20.00
-        })
-    </script> -->
 {% endblock %}
 
 </html>
