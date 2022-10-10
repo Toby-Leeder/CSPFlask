@@ -13,4 +13,4 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /home/ubuntu/CSPFlask/volumes
+      device: /home/ubuntu/TobyFlask/volumes
